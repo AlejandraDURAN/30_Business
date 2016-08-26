@@ -1,0 +1,51 @@
+@import 'https://fonts.googleapis.com/css?family=Baloo+Bhaina';
+@import 'https://fonts.googleapis.com/css?family=Exo';
+
+nav.navbar{/*Color del nav bar*/
+	background-color: transparent;
+	border: none;
+}
+.navbar-default .navbar-brand {/*Color del titulo*/
+    color: white;
+    font-size: 200%;
+    font-family: 'Exo';
+}
+.navbar-default .navbar-nav > li > a { /*Color de links*/
+    color: #D7DBDD;
+    font-family: 'Exo'
+    font-size: 130%;
+}
+.navbar-default .navbar-nav > li > a:hover,/*Color de links puntero sobre ellos*/
+.navbar-default .navbar-nav > li > a:focus {
+    color: black;
+}
+
+.user{
+    color:#2E9AFE;
+}
+
+.back1{
+    background-image: url("../image/large.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 650px;
+}
+
+.back2{
+    color: #D7DBDD;
+    opacity: 0.3;
+}
+.circle{
+    height: 90px;
+    width: 30%;
+    border-radius: 50%;
+    background-color:#E6E6E6;
+}
+ .comoon{
+    font-size: 250%;
+    margin-left: 25%;
+ }
+
+ .ml-10{
+    margin-left: 15%;
+ }
