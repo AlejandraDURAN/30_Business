@@ -5,6 +5,10 @@ nav.navbar{/*Color del nav bar*/
 	background-color: transparent;
 	border: none;
 }
+
+.computer{
+    width: 100%;
+}
 .navbar-default .navbar-brand {/*Color del titulo*/
     color: white;
     font-size: 200%;
@@ -31,10 +35,6 @@ nav.navbar{/*Color del nav bar*/
     height: 650px;
 }
 
-.back2{
-    color: #D7DBDD;
-    opacity: 0.3;
-}
 .circle{
     height: 90px;
     width: 30%;
@@ -44,8 +44,14 @@ nav.navbar{/*Color del nav bar*/
  .comoon{
     font-size: 250%;
     margin-left: 25%;
+    margin-top: 10%;
+    color:#2E9AFE;
  }
 
  .ml-10{
     margin-left: 15%;
+ }
+
+ .mt-10{
+    margin-top: 12%;
  }
