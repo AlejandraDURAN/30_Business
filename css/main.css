@@ -24,6 +24,10 @@ nav.navbar{/*Color del nav bar*/
     color: black;
 }
 
+.text-center{
+    color:white;
+}
+
 .user{
     color:#2E9AFE;
 }
@@ -55,3 +59,13 @@ nav.navbar{/*Color del nav bar*/
  .mt-10{
     margin-top: 12%;
  }
+
+.pt-40{
+    padding-top: 15%;
+}
+.pt-10{
+    padding-top: 20%;
+}
+.pl-10{
+    padding-left: 25%;
+}
