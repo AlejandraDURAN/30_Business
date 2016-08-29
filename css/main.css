@@ -23,13 +23,8 @@ nav.navbar{/*Color del nav bar*/
 .navbar-default .navbar-nav > li > a:focus {
     color: black;
 }
-
-.text-center{
-    color:white;
-}
-
-.user{
-    color:#2E9AFE;
+body{
+    font-family: 'Exo';
 }
 
 .back1{
@@ -39,33 +34,114 @@ nav.navbar{/*Color del nav bar*/
     height: 650px;
 }
 
-.circle{
-    height: 90px;
+.back4{
+    background-image: url("../image/sec-2.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 500px;
+    width: 50%;
+}
+
+.back2{
+    background-color:#58ACFA;
+    padding: 4%;
+    margin-top: 32%;
+}
+
+.back3{
+    background-color:#58ACFA;
+    padding: 4%;
+}
+
+.text-blue{
+   color: #58ACFA 
+}
+.text-white{
+    color: white;
+}
+.simbolo{
+    background-color: #58ACFA;
+    padding: 2%;
+    color: white;
+    font-size: 200%;
+}
+
+.button1{
     width: 30%;
-    border-radius: 50%;
-    background-color:#E6E6E6;
+    border: blue solid  0 2px 2px 0 ;
+    border-radius: 360px;
+    box-shadow: 2px 2px 2px 2px;
+    padding: 5%;
+    margin-left: 35%;
+    margin-bottom: 8%;
+    margin-top:10%; 
 }
- .comoon{
-    font-size: 250%;
-    margin-left: 25%;
+.gliphy{
+    font-size: 300%;
     margin-top: 10%;
-    color:#2E9AFE;
- }
-
- .ml-10{
-    margin-left: 15%;
- }
-
- .mt-10{
-    margin-top: 12%;
- }
-
-.pt-40{
-    padding-top: 15%;
+    color: #58ACFA;
 }
-.pt-10{
-    padding-top: 20%;
+.gliphy2{
+    font-size: 300%;
+    color: white;
+    display: inline-block;
+    margin-top: 2%;
+    margin-right: 2%;
 }
-.pl-10{
-    padding-left: 25%;
+
+
+.logo{
+    width: 50%;
+}
+.logo1{
+    width: 40%;
+}
+
+
+footer{
+    background-color: #34495E;
+}
+
+
+.mb-20{
+    margin-bottom: 20%;
+}
+
+.pl-30{
+    padding-left: 30%;
+}
+
+.pl-40{
+    padding-left: 40%;
+}
+
+.pt-5{
+
+    padding-top: 5%;
+}
+
+.button3{
+    margin-left: 45%;
+    margin-top: 25%;
+}
+
+.mt-20{
+    margin-top: 20%;
+}
+.ml-8{
+    margin-left: 8%;
+}
+.mt-5{
+    margin-top: 5%;
+}
+.mt-10{
+    margin-top: 10%;
+}
+
+.mt-8{
+    margin-top: 8%;
+}
+
+.ml-3{
+    margin-left: 3%;
 }

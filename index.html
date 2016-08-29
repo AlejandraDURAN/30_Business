@@ -15,186 +15,242 @@
 	    <link rel="shortcut icon" href="favicon.ico">
 	</head>
 	<body>
-		<header class="back1"><!--necesita back-->
+		<header class="back1">		
 			<div class="container-fluid">
 				<nav class="navbar navbar-default"><!--Inicio menu-->
-					<div class="container"><!--inicio container-->
-					    <div class="navbar-header">
-					        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-					        	<span class="sr-only">Toggle navigation</span>
-					        </button> 
-					        <a class="navbar-brand"><a href="#inicio"><img id="inicio" src="image/user-r.png"></a><span class="user"></a>
-					    </div>
-					    <div id="navbar" class="collapse navbar-collapse">
-				      	  <ul class="nav navbar-nav navbar-right">
-					          <li><a href="#ofrece">¿Qué me ofrece?</a></li>
-					          <li><a href="#funciona">¿Cómo funciona?</a></li>
-					          <li><a href="#usarlo">¿Por qué usarlo?</a></li>
-					           <li><a href="#contactanos">Contáctanos</a></li>
-					      </ul>
-					    </div>
-					    <div class="row">
-					    	<div class="col-xs-12 col-lg-12">
-								<h2 class="text-center text-white pt-40 ">Obten videos de personas reales<br> utilizando tu sitio web,en 1 hora</h2>
-								<div class="row pl-10"><!--necesita back-->
-									<div class="col-xs-6 col-lg-6">
-										<h2 class="pt-10 text-white">PRUEBA GRATUITA</h2><br><h4>Obten un video gratis de 5 minutos</h4>
-									</div>
-									<div class="col-xs-6 col-lg-6 pt-10">
-										<button class="">PRUEBA GRATUITA</button>
+					<div class="container">
+				        <div class="navbar-header">
+				          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				          <span class="sr-only">Toggle navigation</span>
+				          </button> 
+				          <a class="navbar-brand"><img class="animated zoomIn infinite" src="image/user-r.png" alt="logo"></a>
+				        </div>
+				        <div id="navbar" class="collapse navbar-collapse">
+				          <ul class="nav navbar-nav navbar-right">
+				            <li class="active"><a href="#ofrece">¿Que me ofrece?</a></li>
+				            <li><a href="#funciona">¿Cómo funciona?</a></li>
+				            <li><a href="#usarlo">¿Por que usarlo?</a></li>
+				            <li><a href="contact.html">Contactanos</a></li>
+				          </ul>
+				        </div>
+			      	</div>
+			    </nav><!--cierre menu-->
+			    <div class="row back2">
+			    	<div class=" col-xs-12 col-lg-6">
+			    		<h1 class="text-white">Obtén videos de personas reales utilizando tu sitio web, en 1 Hora.</h1>
+			   		</div>
+			   		<div class=" col-xs-12 col-lg-6 pl-30 pt-5">
+			   			<button class="btn btn-info animated zoomIn infinite" data-toggle="modal" data-target="#miventana">PRUEBA GRATUITA</button>
+							<div class="modal fade" id="miventana" tabindex="-1" role "dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+										</div>
+								<div class="modal-body">
+									<form class="form-horizontal">
+									  <div class="form-group">
+									    <label class="control-label col-sm-2" for="email">Email:</label>
+									    <div class="col-sm-10">
+									      <input type="email" class="form-control" id="email" placeholder="Enter email">
+									    </div>
+									  </div>
+									  <div class="form-group">
+									    <label class="control-label col-sm-2" for="pwd">Password:</label>
+									    <div class="col-sm-10"> 
+									      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+									    </div>
+									  </div>
+									  <div class="form-group"> 
+									    <div class="col-sm-offset-2 col-sm-10">
+									      <div class="checkbox">
+									        <label><input type="checkbox"> Remember me</label>
+									      </div>
+									    </div>
+									  </div>
+									  <div class="form-group"> 
+									    <div class="col-sm-offset-2 col-sm-10">
+									      <button type="submit" class="btn btn-default">Submit</button>
+									    </div>
+									  </div>
+									</form>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-primary" data="dismiss" "modal">Cerrar</button>
+								</div>	
 									</div>
 								</div>
 							</div>
-					    </div>
-					</div><!--final container-->
-				</nav><!--cierre menu -->  
-			</div>
+					</div>
+				</div>
+			</div>	
 		</header>
 		<section id="ofrece">
 			<div class="container-fluid">
-				<div class="row">
-					<div class="col-xs-12 col-lg-12">
-						<h1 class="text-center">Nuestros servicios</h1>
+				<div class="row text-center">
+					<div class="col-lg-12">
+						<h2 class="text-blue">Nuestros Servicios</h2>
+					</div>
+					<div class="col-lg-4">
+						<div class="button1 animated fadeInUp infinite">
+							<div class="icon-video gliphy"></div>
+						</div>
+						<h3 class="titulo1">Pruebalo gratis</h3>
+						<p class="mb-20">Obtén un primer video screencast de un usuario navegando tu página.</p>	
+					</div>
+					<div class="col-lg-4">
+						<div class="button1 animated fadeInUp infinite">
+							<div class="icon-clock gliphy"></div>
+						</div>
+						<h3 class="titulo1">Compra el servicio completo</h3>
+						<p class="mb-20">Si te gustó; Compra nuestro servicio completo que incluye 7 videos y feedback</p>
+					</div>
+					<div class="col-lg-4">
+						<div class="button1 animated fadeInUp infinite">
+							<div class="icon-documents gliphy"></div>
+						</div>	
+						<h3 class="titulo1">Obtén el resultado en 1 día</h3>
+						<p class="mb-20">Te haremos llegar los videos y el feedback completo el mismo día.</p>
+					</div>
+					<div class="col-lg-12 text-center">
+						<hr>
+						<img src="image/separador.png">
 					</div>
 				</div>
-				<div class="row ml-10">
-					<div class="col-xs-12 col-lg-4">
-						<div class=" circle ">
-						<span class="icon-video comoon"></span>
-						</div>
-						<h4>Pruebalo <br> gratis</h4>
-						<p>Lorem ipsum dolor sit amet magni neque<br> ad cupiditate repellendus enim soluta<br> Lorem</p>
-					</div>	
-					<div class="col-xs-12 col-lg-4">
-						<div class=" circle ">
-						<span class="icon-video comoon"></span>
-						</div>
-						<h4>Compra el<br> servicio completo</h4>
-						<p>Lorem ipsum dolor sit amet magni neque<br> ad cupiditate repellendus enim soluta<br> Lorem</p>
-					</div>
-					<div class="col-xs-12 col-lg-4">
-						<div class=" circle ">
-						<span class="icon-video comoon"></span>
-						</div>
-						<h4>Obten el resultado<br>en 1 día</h4>
-						<p>Lorem ipsum dolor sit amet magni neque<br> ad cupiditate repellendus enim soluta<br> Lorem</p>
-					</div>		
-				</div>
-			</section>
-			<section id="funciona">
-				<hr>
-				<div class="row">
-					<div class="col-xs-12 col-lg-12 text-center">
-					<img src="image/separador.png">
-					</div>
-				</div>
-				<div class="row"><!--inicio-->
-					<div class="col-xs-12 col-lg-6">
-						<div class="row">
-							<div class="col-lg-4">
-								<h3>Ejemplo de</h3>
-							</div>
-							<div class="col-lg-8">
-								<img src="image/logo-2.jpg">
-							</div>
-						</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente eius, unde velit tempore voluptate alias repellat voluptatum de</p>
-						<p>alejandra.duran.marquez@gmail.com</p>
-						<img src="image/flecha.png">
-					</div>
-					<div class="col-xs-12 col-lg-6">
-						<iframe width="600" height="315" src="https://www.youtube.com/embed/trhxm4DvaTg" frameborder="0" allowfullscreen></iframe>
-					</div>	
-				</div><!--final-->
-				<hr>
-				<div class="row">
-					<div class="col-xs-12 col-lg-6">
-						<img class="computer" src="image/sec-2.jpg">
-					</div>
-					<div class="col-xs-12 col-lg-6">
-						<h3 class="text-center">Lo quiero ¿Qué hago?</h3>
-						<div class="row">
-							<div class="col-lg-2">
-								<span class="icon-pencil"> </span>
-							</div>
-							<div class="col-lg-10">
-								<h4>Paso 1: envianos tu link</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur id vel molestias voluptatibus repudiandae itaque.</p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-2">
-								<span class="icon-gears"> </span>
-							</div>
-							<div class="col-lg-10">
-								<h4>Paso 1: envianos tu link</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur id vel molestias voluptatibus repudiandae itaque.</p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-2">
-								<span class="icon-search"> </span>
-							</div>
-							<div class="col-lg-10">
-								<h4>Paso 1: envianos tu link</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur id vel molestias voluptatibus repudiandae itaque.</p>
-							</div>
-						</div>			
-					</div>
-				</div>
-				<hr>
-			</section>
-			<section id="usarlo">
-				<div class="row">
-					<div class="col-xs-12 col-lg-12 text-center">
-					<img src="image/separador.png">
-					</div>
-				</div>
-				<div class="row"><!--inicio-->
-					<div class="col-xs-12 col-lg-6">
-						<div class="row">
-							<div class="col-lg-4">
-								<h3>Proque usar</h3>
-							</div>
-							<div class="col-lg-8">
-								<img src="image/logo-2.jpg">
-							</div>
-						</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente eius, unde velit tempore voluptate alias repellat voluptatum deLorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente eius, unde velit tempore voluptate alias repellat voluptatum deLorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente eius, unde velit tempore voluptate alias repellat voluptatum de</p>
-						<ul>
-							<li>¿Cómo tu público preferente usa tu producto?</li>
-							<li>¿Qué hace facil o dificil navegar en tu producto</li>
-							<li>¿Qué es lo que tu público quiere hacer?</li>
-						</ul>
-						<p> <span>User experience 360</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet ab quae, molestias excepturi facere nobis vitae necessitatibus incidunt non quod dolor cum reprehenderit provident consequatur praesentium dicta quaerat modi fugiat?</p>
-					</div>
-					<div class="col-xs-12 col-lg-6">
-						<img class="computer" src="image/banner.jpg">
-					</div>	
-				</div><!--final-->
-				<div class="row"><!--necesita back-->
-					<div class="col-xs-6 col-lg-6">
-						<h2>PRUEBA GRATUITA</h2><br><h4>Obten un video gratis de 5 minutos</h4>
-						</div>
-					<div class="col-xs-6 col-lg-6">
-						<button>PRUEBA GRATUITA</button>
-					</div>
-				</div>
-			</div><!--container general-->
+			</div>
 		</section>
-		<footer id="contactanos">
+		<section id="funciona">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xs-6 col-lg-6">
-						<p>Escribenos a:</p><br> experienciadeusuario.lab@gmail.com <br> telef: 989637925
+					<div class="col-lg-6">
+						<h2 class="text-blue pt-5">Ejemplo de <img src="image/logo-2.jpg" class="logo" alt="Logo"></h2>
+						<p class="pt-5">En este video te daremos un ejemplo de un integrante de nuestro  panel evaluando<br> la experiencia de usuario: 
+						<a href="https://www.google.com/intl/es-419/mail/help/about.html">alejandra.duran.marquez@gmail.com</a><br>
+						El objetivo de User Testing 360 es identificar situaciones confusas de los usuarios <br> en su web y describir soluciones, que garanticen  una experiencia de uso satisfactoria.</p><br>
+						<img class="pl-40 animated zoomInDown infinite" src="image/flecha.png">
 					</div>
-					<div class="col-xs-6 col-lg-6">
-						<span class="icon-facebook"></span><span class="icon-twitter"></span>
-						<p>Copyright ® 2015 User Testing 360</p>
+					<div class="col-lg-6">
+						<div class="embed-responsive embed-responsive-16by9">
+   							<iframe width="600" height="315" src="https://www.youtube.com/embed/trhxm4DvaTg?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>
+					<hr>
+				</div>
+				<div class="row">
+					<div class="col-lg-6 hidden-xs back4 mt-5"><!--necesita backimage-->
+						<div class="col-lg-12 text-right ml-8 mt-10">
+							<span class="icon-pencil simbolo img-circle"> </span>
+						</div>
+						<div class="col-lg-12 text-right ml-8 mt-10">
+						<span class="icon-tools-2 simbolo img-circle"> </span>
+						</div>
+						<div class="col-lg-12 text-right ml-8 mt-20">
+						<span class="icon-magnifying-glass simbolo img-circle"> </span>
+						</div>
+					</div>
+					<div class="col-lg-6 mt-5">
+						<h2>Lo quiero ¿Qué hago?</h2>
+						<p class="text-blue ml-3">Paso 1:envianos un link</p>
+						<p>Al darle click al botón de prueba. Coloca tu nombre y tu correo electrónico<br> a donde enviaremos el video y el informe con el feedback</p>
+						<p class="text-blue ml-3">Paso 2:describe a tu público objetivo</p>
+						<p>Describe las acciones que quieres que evaluamos por ejemplo:</p>
+						<ul>
+							<li>A primera vista de ¿Que crees que trata la página?</li>
+							<li>Busca el botón de inscribirte ó comprar </li>
+							<li>¿Es fácil o difícil leer los textos?</li>
+						</ul>
+						<p>Puedes preguntas como las que te mostramos.</p>
+						<p class="text-blue ml-3">Paso 3:recibe un video y el feedback completo</p>
+						<p>Recibe un combo de 7 videos y un informe detallado con las capacitaciones<br> de usabilidad de tu producto.</p>
+					</div>
+				</div>
+				<hr>
+				<div class="row text-center">
+					<div class="col-lg-12">
+						<img src="image/separador.png">
+					</div>
+				</div>
+				<div class="row" id="usarlo">
+					<div class="col-lg-6">
+						<h2 class="text-blue">Por qué usar <img src="image/logo-2.jpg" class="logo1" alt="imagen2"></h2>
+						<p>En la era en la que nos encontramos, la web se ha convertido en el mejor sitio para llegar a millones de personas en segundos, pero ¿que pasa si el producto digital que ofreces no es bueno o no se entiende? Pierdes esta enorme oportunidad. Con <a href="#">User Testing 360</a>, puedes entender la experiencia de uso de tu página o producto digital y mejorarla para que satisfaga todas las necesidades de tus usuarios. Con User Testing 360 podras entender:</p>
+						<ul>
+							<li>¿Cómo tu público objetivo verdaderamente usa tu producto?</li>
+							<li>¿Qué se hace fácil o difícil al navegar tu producto?</li>
+							<li>¿Qué es lo que tu público quiere hacer y tal vez no obtiene o consigue?</li>
+						</ul>
+						<p><b>"User testing 360"</b> te ayudara a responder estas preguntas y muchas más. Es el toque final perfecto para tu página o producto digital.</p>
+					</div>
+					<div class="col-lg-6">
+						<img src="image/banner.jpg" alt="imagen3" class="img-responsive">
+					</div>
+				</div>
+				<div class="row back3"><!--inicio de row button-->
+					<div class=" col-xs-12 col-lg-6">
+						<h1 class="text-white">Prueba gratuita</h1>
+						<p class="text-white">Obten un video de 5 minutos gratis</p>
+					</div>
+					<div class=" col-xs-12 col-lg-6 pl-30 pt-5"><!--renglon button-->
+						<button class="btn btn-info animated zoomIn infinite" data-toggle="modal" data-target="#miventana">PRUEBA GRATUITA</button>
+							<div class="modal fade" id="miventana" tabindex="-1" role "dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+										</div>
+								<div class="modal-body">
+									<form class="form-horizontal">
+									  <div class="form-group">
+									    <label class="control-label col-sm-2" for="email">Email:</label>
+									    <div class="col-sm-10">
+									      <input type="email" class="form-control" id="email" placeholder="Enter email">
+									    </div>
+									  </div>
+									  <div class="form-group">
+									    <label class="control-label col-sm-2" for="pwd">Password:</label>
+									    <div class="col-sm-10"> 
+									      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+									    </div>
+									  </div>
+									  <div class="form-group"> 
+									    <div class="col-sm-offset-2 col-sm-10">
+									      <div class="checkbox">
+									        <label><input type="checkbox"> Remember me</label>
+									      </div>
+									    </div>
+									  </div>
+									  <div class="form-group"> 
+									    <div class="col-sm-offset-2 col-sm-10">
+									      <button type="submit" class="btn btn-default">Submit</button>
+									    </div>
+									  </div>
+									</form>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-primary" data="dismiss" "modal">Cerrar</button>
+								</div>	
+									</div>
+								</div>
+							</div>
+					</div><!--renglon button-->
+				</div><!--final de row button-->
+			</div>
+		</section>
+		<footer>
+			<div class="container-fluid">
+				<div class="row">
+					<div class=" col-xs-12 col-lg-6">
+						<p class="text-white">Escribenos a:</p>
+						<p class="text-white"><a href="experienciadeusuario.lab@gmail.com"></a> </p>
+						<p class="text-white">telef: 9876554321</p>
+					</div>
+					<div class=" col-xs-12 col-lg-6 text-right">
+						<div class="icon-facebook gliphy2 animated bounceOut infinite"></div>
+						<div class="icon-twitter  gliphy2 animated bounceOut infinite"></div>
+						<p class="text-white">Copyright &copy2015 - User Testing 360</p>
 					</div>
 				</div>
 			</div>
 		</footer>
-			
-    </body>
+	</body>
 </html>
